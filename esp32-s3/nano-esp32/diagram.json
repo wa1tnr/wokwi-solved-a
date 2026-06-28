@@ -7,6 +7,7 @@
     { "type": "wokwi-vcc", "id": "vcc2", "top": 60, "left": 160, "attrs": {} },
     { "type": "wokwi-text", "id": "text1", "top": 405, "left": 15, "attrs": { "text": "L T to B:   4 5 6 7 15 16 17 18 8 3 46 9-14" } },
     { "type": "wokwi-text", "id": "text2", "top": 430.4, "left": 85, "attrs": { "text": "19 20 21 47 48 45 0 35-42 2 1   R: B to T" } },
+    { "type": "wokwi-text", "id": "text3", "top": 455, "left": 85, "attrs": { "text": "Sun 28 Jun 19:28:15 UTC 2026" } },
     { "type": "wokwi-led", "id": "led2", "top": 123.6, "left": 170, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led3", "top": 123.6, "left": 200, "attrs": { "color": "orange" } },
     { "type": "wokwi-led", "id": "led4", "top": 123.6, "left": 230, "attrs": { "color": "yellow" } },
