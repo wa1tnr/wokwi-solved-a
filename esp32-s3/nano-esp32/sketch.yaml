@@ -1,0 +1,7 @@
+profiles:
+  default:
+    fqbn: arduino:esp32:nano_nora
+    platforms:
+      - platform: arduino:esp32
+    libraries:
+default_profile: default
