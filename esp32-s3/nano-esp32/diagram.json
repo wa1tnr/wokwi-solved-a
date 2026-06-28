@@ -35,12 +35,12 @@
     [ "r5:1", "led5:A", "firebrick", [ "h0" ] ],
     [ "r6:1", "led6:A", "firebrick", [ "h0" ] ],
     [ "r7:1", "led7:A", "firebrick", [ "h0" ] ],
-    [ "r2:2", "vcc2:VCC", "firebrick", [ "v18", "h15.85", "v-155", "h-41.6" ] ],
-    [ "r3:2", "vcc2:VCC", "firebrick", [ "v18", "h17.05", "v-153.6", "h-38.4" ] ],
-    [ "r4:2", "vcc2:VCC", "firebrick", [ "v18", "h15.85", "v-153.6", "h-67.2" ] ],
-    [ "r5:2", "vcc2:VCC", "firebrick", [ "v18", "h14.65", "v-153.6", "h-96" ] ],
-    [ "r6:2", "vcc2:VCC", "firebrick", [ "v18", "h13.45", "v-152.4", "h-124.8" ] ],
-    [ "r7:2", "vcc2:VCC", "firebrick", [ "v18", "h14.25", "v-153.6", "h-153.6" ] ]
+    [ "r2:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-41.6" ] ],
+    [ "r3:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-38.4" ] ],
+    [ "r4:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-67.2" ] ],
+    [ "r5:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-96" ] ],
+    [ "r6:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-124.8" ] ],
+    [ "r7:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-153.6" ] ]
   ],
   "dependencies": {}
 }
