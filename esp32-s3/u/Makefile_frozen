@@ -1,0 +1,74 @@
+
+all:	compile_verbose
+
+get_build_cache.path:
+	@arduino-cli config get build_cache.path
+
+compile_verbose:
+	@arduino-cli compile --verbose --build-property "compiler.cpp.extra_flags=-Wall -Wextra -fdiagnostics-color"
+
+compile_true_verbose:
+	@arduino-cli compile --verbose --build-property "compiler.cpp.extra_flags=-Wall -Wextra -Werror -Wno-missing-field-initializers -Wno-type-limits -fdiagnostics-color"
+
+
+upload:
+	@arduino-cli upload
+
+_new_sketch:
+	@arduino-cli sketch new sketch_26jan04a
+
+_list_boards:
+	@arduino-cli board list
+
+board_attach:
+	@arduino-cli board attach -b arduino:zephyr:unoq
+	@arduino-cli board attach -p /dev/ttyACM0
+
+comm:
+	@microcom -p /dev/ttyACM0 -s 115200
+
+git_status:
+	@git status | cat | tr -d '\t'
+
+# CURRENT_PROJECT=AABBCCDDEEFF00112233445566778899
+CURRENT_PROJECT=AABBCCDDEEFF00112233445566778899
+
+listcached:
+	@cd ~/.cache/arduino/sketches ; cd ${CURRENT_PROJECT} ; ls -la ; echo -n ''
+
+_clean:	listcached
+
+THIS_INO_NAMED='nano-esp32.ino'
+
+distclean:	_clean
+	@cd ~/.cache/arduino/sketches ; \
+	if test -d ${CURRENT_PROJECT} ; \
+	then echo; \
+	echo "comment: ${CURRENT_PROJECT} exists."; \
+	else echo "    whoops .."; \
+	echo -n "    build directory \047"; \
+	echo "${CURRENT_PROJECT}\047 in .cache subdir tree was removed."; \
+	echo "    Use \047make\047 again."; \
+	echo;echo "    Exiting early."; exit 13; fi ; \
+	\
+	\
+	\
+	cd ${CURRENT_PROJECT} ; \
+	rm -rf bu* co* in* .la* li* sk* ; \
+	rm -rf rodata_split.ld ; \
+	rm -rf partitions.csv ; \
+	rm -rf file_opts ; \
+	for TOR_BLED_NAM in \
+		".bin"  ".bin-zsk.bin" "_check.tmp" \
+		"_debug.elf" ".elf" ".elf-zsk.bin" \
+		".bootloader.bin" \
+		".partitions.bin" \
+		".hex" ".map" "_temp.elf" "_temp.map" ; \
+	do \
+		rm -rf ${THIS_INO_NAMED}$$TOR_BLED_NAM ; \
+	done ; \
+	echo
+
+clean:	distclean
+
+# end.
