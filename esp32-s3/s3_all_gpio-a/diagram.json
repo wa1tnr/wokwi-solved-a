@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "a CHEcKPOINTED person Mon 29 Jun 21:55:11 UTC 2026",
+  "author": "a CHEcKPOINTED person holicau keyboard positioning of LEDs Mon 29 Jun 23:17:15 UTC 2026",
   "editor": "wokwi",
   "parts": [
     {
@@ -30,7 +30,7 @@
       "id": "text3",
       "top": -297.6,
       "left": -691.2,
-      "attrs": { "text": "Mon 29 Jun 21:54:08 UTC 2026" }
+      "attrs": { "text": "Mon 29 Jun 23:17:15 UTC 2026" }
     },
     { "type": "wokwi-led", "id": "led2", "top": 123.6, "left": 170, "attrs": { "color": "red" } },
     {
@@ -110,7 +110,13 @@
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
-    { "type": "wokwi-led", "id": "led1", "top": 226.8, "left": 935, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 121.2,
+      "left": 483.8,
+      "attrs": { "color": "red" }
+    },
     {
       "type": "wokwi-led",
       "id": "led8",
@@ -176,79 +182,79 @@
       "left": 13.4,
       "attrs": { "color": "red" }
     },
-    { "type": "wokwi-led", "id": "led19", "top": 226.8, "left": 503, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
-      "id": "led20",
-      "top": 226.8,
-      "left": 531.8,
+      "id": "led19",
+      "top": 121.2,
+      "left": 915.8,
       "attrs": { "color": "red" }
     },
+    { "type": "wokwi-led", "id": "led20", "top": 121.2, "left": 887, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
       "id": "led21",
-      "top": 226.8,
-      "left": 560.6,
+      "top": 121.2,
+      "left": 858.2,
       "attrs": { "color": "red" }
     },
-    {
-      "type": "wokwi-led",
-      "id": "led30",
-      "top": 226.8,
-      "left": 675.8,
-      "attrs": { "color": "red" }
-    },
+    { "type": "wokwi-led", "id": "led30", "top": 121.2, "left": 743, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
       "id": "led35",
-      "top": 226.8,
-      "left": 704.6,
+      "top": 121.2,
+      "left": 714.2,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
       "id": "led36",
-      "top": 226.8,
-      "left": 733.4,
+      "top": 121.2,
+      "left": 685.4,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
       "id": "led37",
-      "top": 226.8,
-      "left": 762.2,
+      "top": 121.2,
+      "left": 656.6,
       "attrs": { "color": "red" }
     },
-    { "type": "wokwi-led", "id": "led38", "top": 226.8, "left": 791, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
-      "id": "led39",
-      "top": 226.8,
-      "left": 819.8,
+      "id": "led38",
+      "top": 121.2,
+      "left": 627.8,
       "attrs": { "color": "red" }
     },
+    { "type": "wokwi-led", "id": "led39", "top": 121.2, "left": 599, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
       "id": "led40",
-      "top": 226.8,
-      "left": 848.6,
+      "top": 121.2,
+      "left": 570.2,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
       "id": "led41",
-      "top": 226.8,
-      "left": 877.4,
+      "top": 121.2,
+      "left": 541.4,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
       "id": "led42",
-      "top": 226.8,
-      "left": 906.2,
+      "top": 121.2,
+      "left": 512.6,
       "attrs": { "color": "red" }
     },
-    { "type": "wokwi-led", "id": "led45", "top": 226.8, "left": 647, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led45",
+      "top": 121.2,
+      "left": 771.8,
+      "attrs": { "color": "red" }
+    },
     {
       "type": "wokwi-led",
       "id": "led46",
@@ -259,29 +265,29 @@
     {
       "type": "wokwi-led",
       "id": "led47",
-      "top": 226.8,
-      "left": 589.4,
+      "top": 121.2,
+      "left": 829.4,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
       "id": "led48",
-      "top": 226.8,
-      "left": 618.2,
+      "top": 121.2,
+      "left": 800.6,
       "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r1",
-      "top": 321.6,
-      "left": 930.65,
+      "top": 225.6,
+      "left": 479.45,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r8",
-      "top": 244.8,
+      "top": 225.6,
       "left": -19.75,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -289,7 +295,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r9",
-      "top": 244.8,
+      "top": 225.6,
       "left": -77.35,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -297,7 +303,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r10",
-      "top": 244.8,
+      "top": 225.6,
       "left": -106.15,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -305,7 +311,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r11",
-      "top": 244.8,
+      "top": 225.6,
       "left": -134.95,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -313,7 +319,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r12",
-      "top": 244.8,
+      "top": 225.6,
       "left": -163.75,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -321,7 +327,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r13",
-      "top": 244.8,
+      "top": 225.6,
       "left": -192.55,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -329,7 +335,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r14",
-      "top": 244.8,
+      "top": 225.6,
       "left": -221.35,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -337,7 +343,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r15",
-      "top": 244.8,
+      "top": 225.6,
       "left": 95.45,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -345,7 +351,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r16",
-      "top": 244.8,
+      "top": 225.6,
       "left": 66.65,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -353,7 +359,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r17",
-      "top": 244.8,
+      "top": 225.6,
       "left": 37.85,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -361,7 +367,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r18",
-      "top": 244.8,
+      "top": 225.6,
       "left": 9.05,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -369,111 +375,111 @@
     {
       "type": "wokwi-resistor",
       "id": "r19",
-      "top": 475.2,
-      "left": 498.65,
+      "top": 225.6,
+      "left": 911.45,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r20",
-      "top": 465.6,
-      "left": 527.45,
+      "top": 225.6,
+      "left": 882.65,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r21",
-      "top": 456,
-      "left": 556.25,
+      "top": 225.6,
+      "left": 853.85,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r30",
-      "top": 427.2,
-      "left": 671.45,
+      "top": 225.6,
+      "left": 738.65,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r35",
-      "top": 408,
-      "left": 700.25,
+      "top": 225.6,
+      "left": 709.85,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r36",
-      "top": 398.4,
-      "left": 729.05,
+      "top": 225.6,
+      "left": 681.05,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r37",
-      "top": 379.2,
-      "left": 757.85,
+      "top": 225.6,
+      "left": 652.25,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r38",
-      "top": 369.6,
-      "left": 786.65,
+      "top": 225.6,
+      "left": 623.45,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r39",
-      "top": 369.6,
-      "left": 815.45,
+      "top": 225.6,
+      "left": 594.65,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r40",
-      "top": 360,
-      "left": 844.25,
+      "top": 225.6,
+      "left": 565.85,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r41",
-      "top": 340.8,
-      "left": 873.05,
+      "top": 225.6,
+      "left": 537.05,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r42",
-      "top": 331.2,
-      "left": 901.85,
+      "top": 225.6,
+      "left": 508.25,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r45",
-      "top": 436.8,
-      "left": 642.65,
+      "top": 225.6,
+      "left": 767.45,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r46",
-      "top": 244.8,
+      "top": 225.6,
       "left": -48.55,
       "rotate": 90,
       "attrs": { "value": "1000" }
@@ -481,16 +487,16 @@
     {
       "type": "wokwi-resistor",
       "id": "r47",
-      "top": 446.4,
-      "left": 585.05,
+      "top": 225.6,
+      "left": 825.05,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r48",
-      "top": 446.4,
-      "left": 613.85,
+      "top": 225.6,
+      "left": 796.25,
       "rotate": 90,
       "attrs": { "value": "1000" }
     },
@@ -506,7 +512,7 @@
       "id": "text5",
       "top": -182.4,
       "left": -825.6,
-      "attrs": { "text": "Pin 41 and 42 resolved - one was repeated the other omitted" }
+      "attrs": { "text": "USE KEYBOARD more - move LEDs around once grabbed" }
     }
   ],
   "connections": [
@@ -544,7 +550,7 @@
     [ "esp:40", "led40:C", "violet", [ "h0" ] ],
     [ "esp:41", "led41:C", "violet", [ "h0" ] ],
     [ "esp:42", "led42:C", "violet", [ "h0" ] ],
-    [ "esp:2", "led2:C", "violet", [ "h28.8", "v-96", "h-134.4", "v76.8", "h-179.8" ] ],
+    [ "esp:2", "led2:C", "violet", [ "h19.2", "v-96", "h-124.8", "v76.8", "h-179.8" ] ],
     [ "esp:1", "led1:C", "violet", [ "h0" ] ],
     [ "r4:1", "led4:A", "firebrick", [ "h0" ] ],
     [ "r5:1", "led5:A", "firebrick", [ "h0" ] ],
