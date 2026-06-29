@@ -17,8 +17,16 @@ void blink(uint8_t pin) {
   half_blink(pin);
 }
 
+
+      // "attrs": { "text": "L T to B:   4 5 6 7 15 16 17 18 8 3 46 9-14" }
+
+      // "attrs": { "text": "19 20 21 47 48 45 0 35-42 2 1   R: B to T" }
+
+
 void setup_gpio() {
-  int pins[] = {2, 3, 4, 5, 6, 7};
+  int pinsX[] = {2, 3, 4, 5, 6, 7};
+  int pinsQ[] = {5, 6, 7, 8, 9, 10};
+  int pins[] = {4,5,6,7,15,16,17,18,8,3,46,9,10,11,12, 13,14,19,20,21,47,48,45,0,35,36,37,38,39,40,42,42,2,1};
   for (int pin : pins) {
     pinMode(pin, OUTPUT);
     digitalWrite(pin, HIGH);
@@ -26,7 +34,8 @@ void setup_gpio() {
 }
 
 void blink_all() {
-  int pins[] = {2, 3, 4, 5, 6, 7};
+  int pinsQ[] = {5, 6, 7, 8, 9, 10};
+  int pins[] = {4,5,6,7,15,16,17,18,8,3,46,9,10,11,12, 13,14,19,20,21,47,48,45,0,35,36,37,38,39,40,42,42,2,1};
   for (int pin : pins) {
     blink(pin);
     delay(500);
