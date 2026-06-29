@@ -20,6 +20,9 @@ _new_sketch:
 _list_boards:
 	@arduino-cli board list
 
+_board_details:
+	@arduino-cli board details -b esp32:esp32:esp32s3
+
 board_attach:
 	@arduino-cli board attach -b arduino:zephyr:unoq
 	@arduino-cli board attach -p /dev/ttyACM0
@@ -38,7 +41,7 @@ listcached:
 
 _clean:	listcached
 
-THIS_INO_NAMED='nano-esp32.ino'
+THIS_INO_NAMED='s3_all_gpio-a.ino'
 
 distclean:	_clean
 	@cd ~/.cache/arduino/sketches ; \
@@ -58,11 +61,15 @@ distclean:	_clean
 	rm -rf rodata_split.ld ; \
 	rm -rf partitions.csv ; \
 	rm -rf file_opts ; \
+	rm -rf boot_app0.bin ; \
+	rm -rf flash_args ; \
+	rm -rf sdkconfig ; \
 	for TOR_BLED_NAM in \
 		".bin"  ".bin-zsk.bin" "_check.tmp" \
 		"_debug.elf" ".elf" ".elf-zsk.bin" \
 		".bootloader.bin" \
 		".partitions.bin" \
+		".merged.bin" \
 		".hex" ".map" "_temp.elf" "_temp.map" ; \
 	do \
 		rm -rf ${THIS_INO_NAMED}$$TOR_BLED_NAM ; \

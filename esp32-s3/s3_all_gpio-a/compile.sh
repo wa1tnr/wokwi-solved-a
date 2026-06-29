@@ -5,7 +5,7 @@ export LOCAL_DIR="."
 payload() {
     arduino-cli compile \
 	--verbose \
-	--fqbn arduino:esp32:nano_nora \
+	--fqbn esp32:esp32:esp32s3 \
 	${LOCAL_DIR}
 }
 
