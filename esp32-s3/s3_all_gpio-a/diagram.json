@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "a CHEcKPOINTED person holicau keyboard positioning of LEDs Mon 29 Jun 23:17:15 UTC 2026",
+  "author": "a CHEcKPOINTED person Mon 29 Jun 23:45:45 UTC 2026",
   "editor": "wokwi",
   "parts": [
     {
@@ -10,7 +10,7 @@
       "left": 378.97,
       "attrs": {}
     },
-    { "type": "wokwi-vcc", "id": "vcc2", "top": 60, "left": 160, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc2", "top": 48.76, "left": 153.6, "attrs": {} },
     {
       "type": "wokwi-text",
       "id": "text1",
@@ -30,7 +30,7 @@
       "id": "text3",
       "top": -297.6,
       "left": -691.2,
-      "attrs": { "text": "Mon 29 Jun 23:17:15 UTC 2026" }
+      "attrs": { "text": "Mon 29 Jun 23:45:45 UTC 2026" }
     },
     { "type": "wokwi-led", "id": "led2", "top": 123.6, "left": 170, "attrs": { "color": "red" } },
     {
@@ -512,7 +512,7 @@
       "id": "text5",
       "top": -182.4,
       "left": -825.6,
-      "attrs": { "text": "USE KEYBOARD more - move LEDs around once grabbed" }
+      "attrs": { "text": "Pin 41 and 42 resolved - one was repeated the other omitted" }
     }
   ],
   "connections": [
@@ -592,36 +592,36 @@
     [ "r5:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-96" ] ],
     [ "r6:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-124.8" ] ],
     [ "r7:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-124.8" ] ],
-    [ "r15:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-902.4", "h515.8" ] ],
-    [ "r16:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-873.6", "h487" ] ],
-    [ "r17:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-854.4", "h458.2" ] ],
-    [ "r18:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-835.2", "h429.4" ] ],
-    [ "r8:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-816", "h400.6" ] ],
+    [ "r15:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h39" ] ],
+    [ "r16:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h67.8" ] ],
+    [ "r17:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h96.6" ] ],
+    [ "r18:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h125.4" ] ],
+    [ "r8:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h154.2" ] ],
     [ "r3:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-38.4" ] ],
-    [ "r46:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-806.4", "h371.8" ] ],
-    [ "r9:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-787.2", "h343" ] ],
-    [ "r10:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-748.8", "h314.2" ] ],
-    [ "r11:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-729.6", "h285.4" ] ],
-    [ "r12:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-720", "h256.6" ] ],
-    [ "r13:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-700.8", "h227.8" ] ],
-    [ "r14:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-662.4", "h199" ] ],
-    [ "r19:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-595.2", "h-367.4" ] ],
-    [ "r20:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-614.4", "h-396.2" ] ],
-    [ "r21:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-633.6", "h-425" ] ],
-    [ "r47:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-643.2", "h-453.8" ] ],
-    [ "r48:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-672", "h-482.6" ] ],
-    [ "r45:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-681.6", "h-511.4" ] ],
-    [ "r30:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-681.6", "h-540.2" ] ],
-    [ "r35:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-672", "h-569" ] ],
-    [ "r36:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-672", "h-597.8" ] ],
-    [ "r37:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-662.4", "h-626.6" ] ],
-    [ "r38:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-662.4", "h-655.4" ] ],
-    [ "r39:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-691.2", "h-684.2" ] ],
-    [ "r40:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-729.6", "h-713" ] ],
-    [ "r41:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-748.8", "h-741.8" ] ],
-    [ "r42:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-787.2", "h-770.6" ] ],
+    [ "r46:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h183" ] ],
+    [ "r9:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h211.8" ] ],
+    [ "r10:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h240.6" ] ],
+    [ "r11:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h269.4" ] ],
+    [ "r12:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h298.2" ] ],
+    [ "r13:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h327" ] ],
+    [ "r14:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h355.8" ] ],
+    [ "r19:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-777" ] ],
+    [ "r20:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-748.2" ] ],
+    [ "r21:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-719.4" ] ],
+    [ "r47:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-690.6" ] ],
+    [ "r48:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-661.8" ] ],
+    [ "r45:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-633" ] ],
+    [ "r30:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-604.2" ] ],
+    [ "r35:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-575.4" ] ],
+    [ "r36:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-546.6" ] ],
+    [ "r37:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-517.8" ] ],
+    [ "r38:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-489" ] ],
+    [ "r39:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-460.2" ] ],
+    [ "r40:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-431.4" ] ],
+    [ "r41:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-402.6" ] ],
+    [ "r42:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-373.8" ] ],
     [ "r2:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-150", "h-41.6" ] ],
-    [ "r1:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-806.4", "h-799.4" ] ]
+    [ "r1:2", "vcc2:VCC", "firebrick", [ "v18", "h9", "v-182.4", "h-345" ] ]
   ],
   "dependencies": {}
 }
